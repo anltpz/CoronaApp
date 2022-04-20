@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_graph"
+    app:startDestination="@id/totalDataFragment">
+
+    <fragment
+        android:id="@+id/coronaNewsFragment"
+        android:name="com.example.mvvmexample.fragment.CoronaNewsFragment"
+        android:label="fragment_corona_news"
+        tools:layout="@layout/fragment_corona_news" >
+        <action
+            android:id="@+id/action_coronaNewsFragment_to_countriesDataFragment"
+            app:destination="@id/countriesDataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/totalDataFragment"
+        android:name="com.example.mvvmexample.fragment.TotalDataFragment"
+        android:label="TotalDataFragment" >
+        <action
+            android:id="@+id/action_totalDataFragment_to_countriesDataFragment"
+            app:destination="@id/countriesDataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/countriesDataFragment"
+        android:name="com.example.mvvmexample.fragment.CountriesDataFragment"
+        android:label="CountriesDataFragment" >
+        <action
+            android:id="@+id/action_countriesDataFragment_to_coronaNewsFragment"
+            app:destination="@id/coronaNewsFragment" />
+        <action
+            android:id="@+id/action_countriesDataFragment_to_totalDataFragment"
+            app:destination="@id/totalDataFragment" />
+    </fragment>
+</navigation>
