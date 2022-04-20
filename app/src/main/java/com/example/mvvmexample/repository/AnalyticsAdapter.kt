@@ -1,4 +1,4 @@
-package com.example.mvvmexample
+package com.example.mvvmexample.repository
 
 
 import javax.inject.Inject

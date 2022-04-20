@@ -1,9 +1,9 @@
-package com.example.mvvmexample
+package com.example.mvvmexample.module
 
+import com.example.mvvmexample.repository.AnalyticsService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
-import dagger.hilt.android.components.ActivityComponent
 import dagger.hilt.components.SingletonComponent
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

@@ -1,4 +1,4 @@
-package com.example.mvvmexample
+package com.example.mvvmexample.repository
 
 import com.example.mvvmexample.models.coronaNews.CoronaNews
 import com.example.mvvmexample.models.totalData.Corona

@@ -5,7 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.mvvmexample.AnalyticsAdapter
+import com.example.mvvmexample.repository.AnalyticsAdapter
 import com.example.mvvmexample.models.coronaNews.CoronaNewsResult
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch

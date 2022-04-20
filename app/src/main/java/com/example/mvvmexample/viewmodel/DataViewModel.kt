@@ -2,8 +2,7 @@ package com.example.mvvmexample.viewmodel
 
 import android.util.Log
 import androidx.lifecycle.*
-import com.example.mvvmexample.AnalyticsAdapter
-import com.example.mvvmexample.models.coronaNews.CoronaNewsResult
+import com.example.mvvmexample.repository.AnalyticsAdapter
 import com.example.mvvmexample.models.totalData.Corona
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch

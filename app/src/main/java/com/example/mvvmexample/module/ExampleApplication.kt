@@ -1,4 +1,4 @@
-package com.example.mvvmexample
+package com.example.mvvmexample.module
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
